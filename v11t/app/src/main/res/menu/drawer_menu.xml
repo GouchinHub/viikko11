@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/option1"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="option 1" />
+        <item
+            android:id="@+id/option2"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="option 2" />
+        <item
+            android:id="@+id/option3"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="option 3" />
+    </group>
+
+    <item
+        android:id="@+id/edit_switch"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="Edit TextView"
+        app:actionLayout="@layout/action_view_switch"
+        app:showAsAction="always" />
+    <item android:title="Text field options">
+        <menu>
+            <item
+                android:id="@+id/font_size"
+                android:icon="@drawable/ic_baseline_format_size_24"
+                android:title="Font size"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/width"
+                android:icon="@drawable/ic_baseline_width_24"
+                android:title="Width"
+                app:actionViewClass="android.widget.SearchView" />
+            <item
+                android:id="@+id/height"
+                android:icon="@drawable/ic_baseline_height_24"
+                android:title="Height"
+                app:actionViewClass="android.widget.SearchView" />
+            <item
+                android:id="@+id/row_count"
+                android:icon="@drawable/ic_baseline_table_rows_24"
+                android:title="Row count"
+                app:actionViewClass="android.widget.SearchView" />
+        </menu>
+    </item>
+</menu>
