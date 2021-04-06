@@ -4,4 +4,49 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="fontSizes">
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+    </string-array>
+    <string-array name="widths">
+        <item>700</item>
+        <item>500</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="heights">
+        <item>700</item>
+        <item>500</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="rows">
+        <item>10</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="languages">
+        <item>@string/Choose</item>
+        <item>@string/English</item>
+        <item>@string/Finnish</item>
+    </string-array>
+
+    <string name="Settings">Settings</string>
+    <string name="Edit_TextView">Edit TextView</string>
+    <string name="Change_title">Change title</string>
+    <string name="Title">Title</string>
+    <string name="Language">Language</string>
+    <string name="Translate_to">Translate to:</string>
+    <string name="Choose">Choose</string>
+    <string name="English">English</string>
+    <string name="Finnish">Finnish</string>
+    <string name="Text_field_options">Text field options</string>
+    <string name="Font_size">Font size</string>
+    <string name="Width">Width</string>
+    <string name="Height">Height</string>
+    <string name="Row_count">Row count</string>
+    <string name="Write_Field">Write Field</string>
+    <string name="Read_Field">Read Field</string>
 </resources>

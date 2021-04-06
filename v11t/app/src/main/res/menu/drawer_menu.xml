@@ -3,50 +3,58 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/option1"
-            android:icon="@drawable/ic_baseline_settings_24"
-            android:title="option 1" />
-        <item
-            android:id="@+id/option2"
-            android:icon="@drawable/ic_baseline_settings_24"
-            android:title="option 2" />
-        <item
-            android:id="@+id/option3"
-            android:icon="@drawable/ic_baseline_settings_24"
-            android:title="option 3" />
-    </group>
 
     <item
         android:id="@+id/edit_switch"
         android:icon="@drawable/ic_baseline_edit_note_24"
-        android:title="Edit TextView"
+        android:title="@string/Edit_TextView"
         app:actionLayout="@layout/action_view_switch"
         app:showAsAction="always" />
-    <item android:title="Text field options">
+
+    <item android:title="@string/Change_title">
+        <menu>
+            <item
+                android:id="@+id/give_title"
+                android:icon="@drawable/ic_baseline_title_24"
+                android:title=""
+                app:actionLayout="@layout/action_view_title"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+
+    <item android:title="@string/Language">
+        <menu>
+            <item
+                android:id="@+id/change_language"
+                android:icon="@drawable/ic_baseline_translate_24"
+                android:title="@string/Translate_to"
+                app:actionLayout="@layout/action_view_options"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+    <item android:title="@string/Text_field_options">
         <menu>
             <item
                 android:id="@+id/font_size"
                 android:icon="@drawable/ic_baseline_format_size_24"
-                android:title="Font size"
+                android:title="@string/Font_size"
+                app:actionLayout="@layout/action_view_options"
                 app:showAsAction="always" />
-
             <item
                 android:id="@+id/width"
                 android:icon="@drawable/ic_baseline_width_24"
-                android:title="Width"
-                app:actionViewClass="android.widget.SearchView" />
+                android:title="@string/Width"
+                app:actionLayout="@layout/action_view_options" />
             <item
                 android:id="@+id/height"
                 android:icon="@drawable/ic_baseline_height_24"
-                android:title="Height"
-                app:actionViewClass="android.widget.SearchView" />
+                android:title="@string/Height"
+                app:actionLayout="@layout/action_view_options" />
             <item
                 android:id="@+id/row_count"
                 android:icon="@drawable/ic_baseline_table_rows_24"
-                android:title="Row count"
-                app:actionViewClass="android.widget.SearchView" />
+                android:title="@string/Row_count"
+                app:actionLayout="@layout/action_view_options" />
         </menu>
     </item>
 </menu>

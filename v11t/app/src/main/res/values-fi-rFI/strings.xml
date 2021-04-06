@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">v11t</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Settings">Asetukset</string>
+    <string name="Edit_TextView">Muokkaa Tekstiä</string>
+    <string name="Change_title">Vaihda otsikko</string>
+    <string name="Title">Otsikko</string>
+    <string name="Language">Kieli</string>
+    <string name="Translate_to">Käännä kielelle:</string>
+    <string name="English">Englanti</string>
+    <string name="Finnish">Suomi</string>
+    <string name="Text_field_options">Teksikentän asetukset</string>
+    <string name="Font_size">Fonttikoko</string>
+    <string name="Width">Leveys</string>
+    <string name="Height">Korkeus</string>
+    <string name="Row_count">Rivimäärä</string>
+    <string name="Write_Field">Kirjoitus Kenttä</string>
+    <string name="Read_Field">Luku Kenttä</string>
+    <string name="Choose">Valitse</string>
+</resources>
